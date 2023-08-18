@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return <>
         <nav>
-            <div className="flex justify-around items-center h-14 font-bold text-tertiar">
+            <div className="flex justify-around items-center h-14 font-bold text-tertiary tracking-wider">
                 <div className="hover:text-invert">HOME</div>
                 <div className="hover:text-invert">EXPERIENCES</div>
                 {/* <div className="w-[200px] h-[150px] bg-cover bg-center" style={logo}></div> */}
