@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Main02 from "./Main02";
 
 const Main = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -46,7 +47,9 @@ const Main = () => {
           className="relative w-full p-7 x:top-24"
           data-carousel="slide"
         >
-            <h1 className="text-tertiary mb-9 font-semibold text-center text-3xl md:text-5xl x:text-6xl">See Latest Vacation Ideas</h1>
+          <h1 className="text-tertiary mb-9 font-semibold text-center text-3xl md:text-5xl x:text-6xl">
+            See Latest Vacation Ideas
+          </h1>
           <div className="relative h-56 overflow-hidden rounded-lg s:h-[20rem] md:h-96 x:h-[50rem]">
             {/* Slide 1 */}
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -97,7 +100,7 @@ const Main = () => {
               <button
                 key={index}
                 type="button"
-                className={`w-3 h-3 rounded-full border-2 ${
+                className={`w-3 h-3 rounded-full border-2 block ${
                   index === currentSlide ? "border-invert" : "border-black"
                 }`}
                 aria-current={index === currentSlide ? "true" : "false"}
@@ -116,9 +119,21 @@ const Main = () => {
             onClick={handlePrevSlide}
           >
             <div className="w-12 h-12 rounded-full bg-primary flex justify-center items-center x:w-20 x:h-20">
-            <svg class="w-4 h-4 text-tertiary x:w-6 x:h-6 hover:text-invert" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
+              <svg
+                className="w-4 h-4 text-tertiary x:w-6 x:h-6 hover:text-invert"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
             </div>
           </button>
           <button
@@ -128,13 +143,31 @@ const Main = () => {
             onClick={handleNextSlide}
           >
             <div className="w-12 h-12 rounded-full bg-primary flex justify-center items-center x:w-20 x:h-20">
-            <svg class="w-4 h-4 text-tertiary x:w-6 x:h-6 hover:text-invert" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
+              <svg
+                className="w-4 h-4 text-tertiary x:w-6 x:h-6 hover:text-invert"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
             </div>
           </button>
         </div>
       </div>
+
+
+      
+
+      {/* MAIN 02  */}
+      <Main02/>
     </>
   );
 };
