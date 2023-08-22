@@ -45,7 +45,7 @@ const Main02 = () => {
         </h1>
 
         {/*  --- CARD --- */}
-        <div className="w-full h-full x:w-full x:h-full x:grid x:grid-cols-2 x:gap-2 x:p-10">
+        <div className="w-full h-full x:w-full x:h-full x:grid x:grid-cols-2 x:gap-2 x:p-10 tracking-wide font-normal">
           {/* CARD 01 */}
           <div className="p-10 w-auto h-auto md:flex md:flex-col">
             <a
