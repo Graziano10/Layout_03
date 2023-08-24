@@ -53,7 +53,7 @@ const Main02 = () => {
               className="flex flex-col items-center bg-primary border border-gray-200 shadow-tertiary md:flex-col"
             >
               <img
-                className="bg-cover bg-center w-full h-full"
+                className="bg-cover bg-center w-auto h-auto"
                 src="src\assets\37c17c4202eec461148597a8becca327-1000.jpg"
                 alt="Location 01"
               />
@@ -64,9 +64,9 @@ const Main02 = () => {
                 <p className="mb-3 font-normaltext-tertiary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Architecto necessitatibus qui deleniti magni neque quia
-                  quibusdam sit veritatis perferendis vitae?
+                  quibusdam sit veritatis perferendis vitae.
                 </p>
-                <div className="w-full h-full flex justify-start items-center">
+                <div className="w-auto h-auto flex justify-start items-center">
                   {/* ICON 01 */}
                   <div className="flex my-3 pe-3">
                     <img
@@ -118,17 +118,17 @@ const Main02 = () => {
             >
               <img
                 className="bg-cover bg-center w-full h-full"
-                src="src\assets\37c17c4202eec461148597a8becca327-1000.jpg"
+                src="src\assets\OIP.jpg"
                 alt="Location 02"
               />
               <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tighttext-tertiary">
-                  Thalie 5
+                  Tropican House
                 </h5>
                 <p className="mb-3 font-normaltext-tertiary">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Architecto necessitatibus qui deleniti magni neque quia
-                  quibusdam sit veritatis perferendis vitae?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  quia mollitia laudantium suscipit velit unde dignissimos dicta
+                  fuga.
                 </p>
                 <div className="w-full h-full flex justify-start items-center">
                   {/* ICON 01 */}
@@ -182,17 +182,17 @@ const Main02 = () => {
             >
               <img
                 className="bg-cover bg-center w-full h-full"
-                src="src\assets\37c17c4202eec461148597a8becca327-1000.jpg"
+                src="src\assets\OIP (1).jpg"
                 alt="Location 03"
               />
               <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tighttext-tertiary">
-                  Thalie 5
+                  Hawaii Resort
                 </h5>
                 <p className="mb-3 font-normaltext-tertiary">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Architecto necessitatibus qui deleniti magni neque quia
-                  quibusdam sit veritatis perferendis vitae?
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Excepturi nostrum sint unde animi perferendis nesciunt
+                  voluptate inventore.
                 </p>
                 <div className="w-full h-full flex justify-start items-center">
                   {/* ICON 01 */}
@@ -246,17 +246,17 @@ const Main02 = () => {
             >
               <img
                 className="bg-cover bg-center h-auto w-auto"
-                src="src\assets\37c17c4202eec461148597a8becca327-1000.jpg"
+                src="src\assets\saadiyat-beach-club-abu-dhabi-8.jpg"
                 alt="Location 04"
               />
               <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tighttext-tertiary">
-                  Thalie 5
+                  Hilton
                 </h5>
                 <p className="mb-3 font-normal text-tertiary">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Architecto necessitatibus qui deleniti magni neque quia
-                  quibusdam sit veritatis perferendis vitae?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore placeat, ipsam eum repudiandae fuga eius impedit fugit
+                  pariatur.
                 </p>
                 <div className="w-full h-full flex justify-start items-center">
                   {/* ICON 01 */}

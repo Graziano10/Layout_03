@@ -1,7 +1,7 @@
 const Main04 = () => {
   const BgImageMain04 = {
     backgroundImage:
-      "url('/src/assets/646e47d24db12dab5466d03f250ec2b5-1000 (1).jpg')",
+      "url('src/assets/834904d48cd733b76553ecf09cade1a9-1000 (1).jpg')",
   };
 
   return (
