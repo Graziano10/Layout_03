@@ -1,3 +1,4 @@
+import Footer from "../components/bundle/Footer";
 import Header from "../components/bundle/Header";
 import Main from "../components/bundle/Main";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Header />
       <Main />
+      <Footer/>
     </>
   );
 };
