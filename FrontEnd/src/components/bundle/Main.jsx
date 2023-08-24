@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Main02 from "./Main02";
 import Main03 from "./Main03";
+import Main04 from "./Main04";
 
 const Main = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -164,13 +165,12 @@ const Main = () => {
         </div>
       </div>
 
-
-      
-
       {/* MAIN 02  */}
-      <Main02/>
+      <Main02 />
       {/* MAIN 03 */}
-      <Main03/>
+      <Main03 />
+      {/* MAIN 04 */}
+      <Main04 />
     </>
   );
 };

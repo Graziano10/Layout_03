@@ -55,7 +55,7 @@ const Main03 = () => {
               <div className="flex flex-col justify-center items-center gap-3 h-full x:flex-row">
                 {/* Slide 1 */}
 
-                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg">
+                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg">
                   <div className="h-36 w-36 flex flex-col justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const Main03 = () => {
                 </div>
 
                 {/* ---02--- */}
-                <div className="flex flex-col justify-center items-center h-full my-10 text-lg">
+                <div className="flex flex-col justify-center items-center h-full w-full my-10 text-lg">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ const Main03 = () => {
 
                 {/* ---03--- */}
 
-                <div className="flex flex-col justify-center items-center h-full">
+                <div className="flex flex-col justify-center items-center h-full w-full">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -126,8 +126,8 @@ const Main03 = () => {
           {/* Slide 2*/}
           <div data-carousel-item2>
             <div className="flex flex-col h-full ">
-              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg x:flex-row">
-                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg">
+              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg x:flex-row">
+                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg">
                   <div className="h-36 w-36 flex flex-col justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ const Main03 = () => {
                 </div>
 
                 {/* ---02--- */}
-                <div className="flex flex-col justify-center items-center h-full my-10 text-lg">
+                <div className="flex flex-col justify-center items-center h-full w-full my-10 text-lg">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -173,7 +173,7 @@ const Main03 = () => {
 
                 {/* ---03--- */}
 
-                <div className="flex flex-col justify-center items-center h-full">
+                <div className="flex flex-col justify-center items-center h-full w-full">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -198,8 +198,8 @@ const Main03 = () => {
 
           <div data-carousel-item2>
             <div className="flex flex-col h-full">
-              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg x:flex-row">
-                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg">
+              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg x:flex-row">
+                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg">
                   <div className="h-36 w-36 flex flex-col justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +221,7 @@ const Main03 = () => {
                 </div>
 
                 {/* ---02--- */}
-                <div className="flex flex-col justify-center items-center h-full my-10 text-lg">
+                <div className="flex flex-col justify-center items-center h-full w-full my-10 text-lg">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +244,7 @@ const Main03 = () => {
 
                 {/* ---03--- */}
 
-                <div className="flex flex-col justify-center items-center h-full">
+                <div className="flex flex-col justify-center items-center w-full h-full">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -272,8 +272,8 @@ const Main03 = () => {
 
           <div data-carousel-item2>
             <div className="flex flex-col h-full">
-              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg x:flex-row">
-                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg">
+              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg x:flex-row">
+                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg">
                   <div className="h-36 w-36 flex flex-col justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -295,7 +295,7 @@ const Main03 = () => {
                 </div>
 
                 {/* ---02--- */}
-                <div className="flex flex-col justify-center items-center h-full my-10 text-lg">
+                <div className="flex flex-col justify-center items-center h-full w-full my-10 text-lg">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -318,7 +318,7 @@ const Main03 = () => {
 
                 {/* ---03--- */}
 
-                <div className="flex flex-col justify-center items-center h-full text-lg">
+                <div className="flex flex-col justify-center items-center h-full w-full text-lg">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -345,8 +345,8 @@ const Main03 = () => {
           {/* Slide 5*/}
           <div data-carousel-item2>
             <div className="flex flex-col h-full">
-              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg x:flex-row">
-                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full text-lg">
+              <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg x:flex-row">
+                <div className="duration-700 ease-in-out flex flex-col justify-center items-center h-full w-full text-lg">
                   <div className="h-36 w-36 flex flex-col justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -368,7 +368,7 @@ const Main03 = () => {
                 </div>
 
                 {/* ---02--- */}
-                <div className="flex flex-col justify-center items-center h-full my-10">
+                <div className="flex flex-col justify-center items-center h-full w-full my-10">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -390,7 +390,7 @@ const Main03 = () => {
 
                 {/* ---03--- */}
 
-                <div className="flex flex-col justify-center items-center h-full">
+                <div className="flex flex-col justify-center items-center h-full w-full">
                   <div className="h-36 w-36 flex justify-center items-center bg-green-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
