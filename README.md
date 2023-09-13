@@ -26,7 +26,8 @@ Main libraries used:
 * Axios
 * Slick-carousel
 * Cors
-* Bcrypt
 * Dotenv
+* Body-parser
 * JsonWebToken
+* Bcrypt
 * Pg
