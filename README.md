@@ -12,3 +12,21 @@ Technologies used:
 
 * React
 * Tailwind CSS
+* Node Js
+* Express.js
+
+Database:
+
+* PostgreSql
+
+Main libraries used:
+
+* Router DOM
+* Redux
+* Axios
+* Slick-carousel
+* Cors
+* Bcrypt
+* Dotenv
+* JsonWebToken
+* Pg
